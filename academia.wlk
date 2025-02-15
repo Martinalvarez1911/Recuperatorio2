@@ -11,5 +11,5 @@ class Academia {
       
     }
 
-    method recetaQueMasExperienciaAporta() = recetario.max{receta => receta.experiencia()} 
+    method recetaQueMasExperienciaAporta() = recetario.max{receta => receta.experienciaSegunReceta()} 
 }
